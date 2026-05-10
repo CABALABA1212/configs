@@ -1,9 +1,6 @@
 " Indentation & Tabs
 set noautoindent
 set nosmartindent
-set noexpandtab
-set tabstop=8
-set shiftwidth=8
 
 " General
 set encoding=utf8
