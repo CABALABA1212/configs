@@ -1,9 +1,3 @@
-if status is-interactive
-    if not set -q TMUX; and [ "$TERM" != "linux" ]
-        tmux attach-session -t default 2>/dev/null; or tmux new-session -s default
-    end
-end
-
 fish_vi_key_bindings
 
 # NVIDIA Prime offload alias
