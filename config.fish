@@ -1,3 +1,7 @@
+if status is-interactive; and not set -q TMUX
+    tmux new-session -A -s main
+end
+        
 fish_vi_key_bindings
 
 # NVIDIA Prime offload alias
